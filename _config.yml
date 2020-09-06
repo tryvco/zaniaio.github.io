@@ -1,0 +1,504 @@
+
+####################################
+######     Global start     ######
+####################################
+name                : 'Zania Cloud Solutions'
+title               : 'Zania Cloud Solutions'
+email               : info@zania.io
+address             : ''
+phone               : ''
+tagline             : 'Your business, empowered!'
+description: >- # this means to ignore newlines until "baseurl:"
+  We’re a technology startup company that provides you with
+  Cost Effective and High Quality
+  solutions to take your business to the next level
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "http://localhost:3000/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+twitter_username    : jekyllrb
+github_username     :  zaniaio
+
+paginate: 12
+paginate_path: "/blog/page:num/"
+
+
+
+# Build settings
+markdown            : kramdown
+
+# all plugin
+plugins:
+  - jekyll-feed
+
+# google_analytics
+google_analytics: ''
+
+# disqus comment
+disqus:
+  shortname: ''
+
+
+####################################
+######     Hero start     ######
+####################################
+# product_background_image          sass
+# product_fixed_image               saas_video             
+# product                           sass_background_image
+# product_slider                    sass_fixed_image
+# product_video                     sass_slider       
+
+hero: 'sass_fixed_image'
+
+# sass [ only one image ]
+hero_sass_name: 'We Made our <br> Software 100% Errorless'
+hero_sass_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+hero_sass_image: 'img/hero/hero-img.png'
+hero_sass_btn_one_link: '#'
+hero_sass_btn_one_text:  'Start a project'
+hero_sass_btn_two_link: '#'
+hero_sass_btn_two_text: ' View Pricing '
+
+# saas_video [ video type mp4 ]
+hero_saas_video_name: 'We Made our <br> Software 100% Errorless' 
+hero_saas_video_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+hero_saas_video_image: 'img/mockup.png'
+hero_saas_video_video: 'vdo/sass-bv.mp4'
+hero_saas_video_btn_one_link: '#'
+hero_saas_video_btn_one_text:  'Browse free demo'
+
+# sass_background_image
+hero_sass_background_image_name: 'We Made our <br> Software 100% Errorless' 
+hero_sass_background_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
+hero_sass_background_image_image: 'img/mockup.png'
+hero_sass_background_image_btn_one_link: '#'
+hero_sass_background_image_btn_one_text:  'Browse free demo'
+
+# sass_fixed_image
+hero_saas_fixed_image_name: 'Your business, empowered!'
+hero_saas_fixed_image_text: "We're here to help you focus on what matters most for your business. Let our cost effective and high quality solutions take your business to the next level."
+hero_saas_fixed_image_image: 'img/mockup.png'
+hero_saas_fixed_image_btn_one_link: '#contact'
+hero_saas_fixed_image_btn_one_text:  'Inquire now'
+
+# sass_slider
+hero_sass_slider_name: 'We Made our <br> Software 100% Errorless' 
+hero_sass_slider_image: 'img/mockup.png'
+hero_sass_slider_btn_one_link: '#'
+hero_sass_slider_btn_one_text:  'Browse free demo'
+hero_sass_slider: 
+  - image: 'img/carusel/s1.jpg'
+  - image: 'img/carusel/s2.jpg'
+  - image: 'img/carusel/s3.jpg'
+
+# product [ only one image ]
+hero_product_name: 'The most Creative <br> Theme ever for Business'
+hero_product_text: 'The first is a non technical method which requires the use of adware removal software. Download  free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+hero_product_image: 'img/hero/hero-img2.png'
+hero_product_btn_one_link: '#'
+hero_product_btn_one_text:  'Browse free demo'
+
+# product_video [ video type mp4 ]
+hero_product_video_name: 'The most Creative <br> Theame ever in Business'
+hero_product_video_text: 'The first is a non technical method which requires the use of adware removal software. ownload free adware and spyware removal'
+hero_product_video_image: 'img/iPhoneX.png'
+hero_product_video_video: 'vdo/app-bv.mp4'
+hero_product_video_btn_one_link: '#'
+hero_product_video_btn_one_text:  'Browse free demo'
+
+# product_background_image
+hero_product_background_image_name: 'The most Creative <br> Theame ever in Business'
+hero_product_background_image_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+hero_product_background_image_image: 'img/iPhoneX.png'
+hero_product_background_image_btn_one_link: '#'
+hero_product_background_image_btn_one_text:  'Browse free demo'
+
+# product_fixed_image
+hero_product_fixed_image_name: 'The most Creative <br> Theame ever in Business'
+hero_product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+hero_product_fixed_image_image: 'img/iPhoneX.png'
+hero_product_fixed_image_btn_one_link: '#'
+hero_product_fixed_image_btn_one_text:  'Browse free demo'
+
+# product_slider
+hero_product_slider_name: 'The most Creative <br> Theame ever in Business' 
+hero_product_slider_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
+hero_product_slider_image: 'img/iPhoneX.png'
+hero_product_slider_btn_one_link: '#'
+hero_product_slider_btn_one_text:  'Browse free demo'
+hero_product_slider: 
+  - image: 'img/carusel/a1.jpg'
+  - image: 'img/carusel/a2.jpg'
+  - image: 'img/carusel/a3.jpg'
+
+# hero-section-blog
+
+hero_blog_slider:
+  - image: 'img/hero/hero-blog.jpg'
+    author: 'Sir Alex James'
+    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
+    category: 'Technical'
+
+  - image: 'img/hero/hero-blog.jpg'
+    author: 'Sir Alex James'
+    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
+    category: 'Art &amp; Fantacy'
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+####################################
+######      Global end      ######
+####################################
+
+
+
+
+
+####################################
+######  feature Section   ######
+####################################
+
+feature_image_one: 'img/feature/i1.png'
+feature_title_one: 'Cost Effective'
+feature_description_one: "We'll implement a solution that best matches your requirements, constraints, and budget."
+
+feature_image_two: 'img/feature/i3.png'
+feature_title_two: 'High Quality'
+feature_description_two: "While our solution are cost-effective, we still uphold the best quality given the constraints."
+
+feature_image_three: 'img/feature/i4.png'
+feature_title_three: 'Fully Supported'
+feature_description_three: "Whenever we design solutions, we make sure that we are behind the solutions design."
+
+
+####################################
+######  marketing Section   ######
+####################################
+marketing_title: 'Empower your businesses through sustainable tech solutions'
+marketing_description: 'Zania envisions Philippine economy to be run by efficient technology-powered businesses. This is achieved by helping businesses scale up through automation, innovation, and optimization of their key processes. Zania believes that any business can be empowered through technology to improve their efficiency and profits.'
+marketing_image_one: '/img/marketing/d1.png'
+marketing_image_two: '/img/marketing/d2.png'
+marketing_btn_text: 'Inquire now'
+marketing_btn_link: '#'
+
+
+####################################
+######  Statistics Section    ######
+####################################
+statistics_title: 'Services we offer'
+statistics_description: 'Currently in the business world, we are witnessing a fact that the Internet is essential to modern living. It is hard to think how businesses can communicate and operate fast without the Internet. Companies nowadays use the web to perform their business processes efficiently and allow them to expand easily. It gives them the edge and the ability to connect with other businesses and organizations and promote their products and services. These services we offer are just about it and we have proven to deliver them with quality and excellence.'
+statistics_image: 'img/title-icon.png'
+
+# main big image
+statistics_start_image: 'img/stat/stat-img.png'
+
+# 4 section image
+statistics_item_one_image: 'img/stat/s1.png'
+statistics_item_one_title: 'Online Store As A Service'
+statistics_item_one_link: '#'
+statistics_item_one_description: 'More and more people prefer online shopping over conventional shopping these days due to convenience. Let us help you build your own online store to help boost your sales further.'
+
+statistics_item_two_image: 'img/stat/s2.png'
+statistics_item_two_title: 'Web/Mobile Application Development'
+statistics_item_two_link: '#'
+statistics_item_two_description: 'We are built to build web solutions that can help execute business processes efficiently.'
+
+statistics_item_three_image: 'img/stat/s2.png'
+statistics_item_three_title: 'Graphics and Web Design'
+statistics_item_three_link: '#'
+statistics_item_three_description: 'We help create unique web personalities and make brands completely stand out and make things attractive.'
+
+statistics_item_four_image: 'img/stat/s4.png'
+statistics_item_four_title: 'IOT and Embedded Systems'
+statistics_item_four_link: '#'
+statistics_item_four_description: 'We fabricate automation, sensor, and wireless control systems by coupling hardware with software.'
+
+####################################
+######    cta Section      ######
+####################################
+cta_title: "Ready to take your <br> business to the next level? Don't hesitate and inquire now!"
+cta_btn_link_one: '#contact'
+cta_btn_text_one: 'Inquire now'
+cta_btn_link_two: '#'
+cta_btn_text_two: 'Signup'
+
+####################################
+######    Social Section      ######
+####################################
+social_title: 'Increase Your Sales Through Online Presence'
+social_description: "Our team uses a wide range of tools to help our clients establish their online presence. Boost your sales through eCommerce and business automations. Our current packaged solutions include Online Store as a Service, SMS notifications and a Static Website."
+social_image: 'img/social-img.png'
+social_button_text: 'Inquire now'
+social_button_link: '#'
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-table-title: 'Select your Best Pricing'
+pricing-table-description: "The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected. "
+
+# Personal Plan
+plan-starter-name: starter
+plan-starter-tagline: Small business holders
+plan-starter-price: '<span>£29</span>/mo'
+plan-starter-offer-line-1-info:  2 User permission
+plan-starter-offer-line-2-info:  Customization Allowed 
+plan-starter-offer-line-3-info:  Social media tool Enabled 
+plan-starter-offer-line-4-info:  No Online Support 
+plan-starter-offer-line-5-info:  6 Months Backup 
+plan-starter-url: '#'
+plan-starter-btn_text: 'Get Started'
+
+# Team Plan
+plan-standard-name: standard
+plan-standard-tagline: Small business holders
+plan-standard-price: '<span>£49</span>/mo'
+plan-standard-offer-line-1-info: 2 User permission 
+plan-standard-offer-line-2-info: Customization Allowed 
+plan-standard-offer-line-3-info: Social media tool Enabled 
+plan-standard-offer-line-4-info: No Online Support 
+plan-standard-offer-line-5-info:  6 Months Backup 
+plan-standard-url: '#'
+plan-standard-btn_text: 'Get Started'
+
+
+# business Plan
+plan-business-name: premium
+plan-business-tagline: Small business holders
+plan-business-price: '<span>£99</span>/mo'
+plan-business-offer-line-1-info: 2 User permission 
+plan-business-offer-line-2-info: Customization Allowed 
+plan-business-offer-line-3-info: Social media tool Enabled 
+plan-business-offer-line-4-info: No Online Support 
+plan-personal-offer-line-5-info: 6 Months Backup 
+plan-business-url: '#'
+plan-business-btn_text: 'Get Started'
+
+
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+
+unique_feature_title: 'Features that make us Stand Out'
+unique_feature_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
+unique_feature_image: 'img/title-icon.png' 
+
+unique_feature_main_image_slider: 
+  - image: 'img/carusel/c1.png'
+  - image: 'img/carusel/c2.png'
+  - image: 'img/carusel/c3.png'
+
+unique_feature_section_one_title: 'Certifications'
+unique_feature_section_one_description: 'We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, day to day, also asks us to remain.'
+unique_feature_section_one_image: http://127.0.0.1:4000/img/feature/f1.png
+unique_feature_section_one_link: '#'
+
+unique_feature_section_two_title: 'Page Builder'
+unique_feature_section_two_description: 'Vera sought out counseling with me because her doctor advised her to discover the emotional causes of her chronic fatigue.'
+unique_feature_section_two_image: http://127.0.0.1:4000/img/feature/f2.png
+unique_feature_section_two_link: '#'
+
+
+#####################################
+#########  Brands Section ###########
+#####################################
+ 
+bands_slider:
+  - image: 'img/brands/b1.png'
+    link: 'https://www.fashion21cosmetics.com/'
+  - image: 'img/brands/b2.png'
+    link: 'https://www.fscosmetics.com/'
+  - image: 'img/brands/b3.png'
+    link: 'https://www.mysterymanila.com/'
+  - image: 'img/brands/b4.png'
+    link: 'http://foxconnbuilders.com/'
+  - image: 'img/brands/b5.png'
+    link: 'https://samgyupontheway.com/'
+  - image: 'img/brands/b6.png'
+    link: 'https://goingstraightonline.com/'
+  - image: 'img/brands/b7.png'
+    link: 'https://roastedduckexpress.com/'
+  - image: 'img/brands/b8.png'
+    link: '#'
+  - image: 'img/brands/b9.png'
+    link: 'https://josanandbryanwedding.github.io/'
+  - image: 'img/brands/b10.png'
+    link: 'https://www.pertuamart.com/'
+
+
+
+
+#####################################
+########### Testimonials ############
+#####################################
+
+testimonials:
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+# Client
+- author: 'Travor James'
+  avatar: '/img/review/user.png'
+  position: 'Head of Marketing, Apple Inc.'
+  quotes: 'Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+
+
+#####################################
+##########     Blog      ###########
+#####################################
+blog-title: 'Latest Posts from our Blog'
+blog-description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
+
+#####################################
+##########     About      ###########
+#####################################
+about-title: 'How can we help?'
+about-description: 'We are a team of software technology professionals. Between us, we are have combined experience of over 10 years in software technology, user experience design, process design. We believe with this much experience, we have made a lot of mistakes already in the past which now guides us in building better designs, etc.'
+
+#####################################
+##########     Contact      ###########
+#####################################
+contact_title: 'Help Us Help You!'
+contact_description: "If you want to learn more about the services we offer, come schedule a call with us. If you have questions, use the form to send us a message."
+contact_image: 'img/title-icon.png'
+contact_email: 'support@demo.com'
+contact_phone: '00 (440) 9865 562 9865'
+contact_address: 'Los Angeles, United States'
+
+#####################################
+##########     footer      ###########
+#####################################
+
+footer_title: 'About Us'
+footer_description: "We are a bunch of crazy geeks and artists with one common passion, the love for design and code. We decided to start a company with a single vision in mind - that through teamwork, great attitude and good appearance, we'll ascend above the circumstances and burst beyond the limits set by men in order to provide service that is excellent, remarkable, and awesome and allows our clients to prevail against the challenges of the competitive market."
+
+footer_resources_link_heading: 'Resources'
+footer_resources_link_one_text: 'Guides'
+footer_resources_link_one_link: '#'
+footer_resources_link_two_text: 'Research'
+footer_resources_link_one_link: '#'
+footer_resources_link_three_text: 'Experts'
+footer_resources_link_one_link: '#'
+footer_resources_link_four_text: 'Agencies'
+footer_resources_link_one_link: '#'
+
+
+footer_features_link_heading: 'Features'
+footer_features_link_one_text: 'Guides'
+footer_features_link_one_link: '#'
+footer_features_link_two_text: 'Research'
+footer_features_link_one_link: '#'
+footer_features_link_three_text: 'Experts'
+footer_features_link_one_link: '#'
+footer_features_link_four_text: 'Agencies'
+footer_features_link_one_link: '#'
+
+
+footer_facebook_link: '#'
+footer_twitter_link: '#'
+footer_dribbble_link: '#'
+footer_behance_link: '#'
+
+mailchimp:
+  user-id: 
+  list-id: 
+
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2020 All rights reserved to
+company_url: '#'
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#google map api key
+
+map: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
