@@ -220,20 +220,25 @@ statistics_item_one_title: 'Online Store As A Service'
 statistics_item_one_link: '#'
 statistics_item_one_description: 'More and more people prefer online shopping over conventional shopping these days due to convenience. Let us help you build your own online store to help boost your sales further.'
 
-statistics_item_two_image: 'img/stat/s2.png'
+statistics_item_two_image: 'img/stat/s6.png'
 statistics_item_two_title: 'Web/Mobile Application Development'
 statistics_item_two_link: '#'
 statistics_item_two_description: 'We are built to build web solutions that can help execute business processes efficiently.'
 
-statistics_item_three_image: 'img/stat/s2.png'
+statistics_item_three_image: 'img/stat/s5.png'
 statistics_item_three_title: 'Graphics and Web Design'
 statistics_item_three_link: '#'
 statistics_item_three_description: 'We help create unique web personalities and make brands completely stand out and make things attractive.'
 
-statistics_item_four_image: 'img/stat/s4.png'
+statistics_item_four_image: 'img/stat/s7.png'
 statistics_item_four_title: 'IOT and Embedded Systems'
 statistics_item_four_link: '#'
 statistics_item_four_description: 'We fabricate automation, sensor, and wireless control systems by coupling hardware with software.'
+
+statistics_item_five_image: 'img/stat/s8.png'
+statistics_item_five_title: 'Business Automation'
+statistics_item_five_link: '#'
+statistics_item_five_description: 'We optimize online business processes through automation via Trello and other integrations.'
 
 ####################################
 ######    cta Section      ######
