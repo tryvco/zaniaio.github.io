@@ -20,5 +20,9 @@
     "sass",
     "browsersync"
   ],
-  "homepage": "https://gojekyll.ro/"
+  "homepage": "https://gojekyll.ro/",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "lodash.template": "^4.5.0"
+  }
 }
