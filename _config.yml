@@ -75,7 +75,7 @@ hero_sass_background_image_btn_one_text:  'Browse free demo'
 # sass_fixed_image
 hero_saas_fixed_image_name: 'Your business, empowered!'
 hero_saas_fixed_image_text: "We're here to help you focus on what matters most for your business. Let our cost effective and high quality solutions take your business to the next level."
-hero_saas_fixed_image_image: 'img/mockup.png'
+hero_saas_fixed_image_image: 'img/empowered.png'
 hero_saas_fixed_image_btn_one_link: '#contact'
 hero_saas_fixed_image_btn_one_text:  'Inquire now'
 
@@ -198,8 +198,8 @@ feature_description_three: "Whenever we design solutions, we make sure that we a
 ####################################
 marketing_title: 'Empower your businesses through sustainable tech solutions'
 marketing_description: 'Zania envisions Philippine economy to be run by efficient technology-powered businesses. This is achieved by helping businesses scale up through automation, innovation, and optimization of their key processes. Zania believes that any business can be empowered through technology to improve their efficiency and profits.'
-marketing_image_one: '/img/marketing/d1.png'
-marketing_image_two: '/img/marketing/d2.png'
+marketing_image_one: '/img/automation-2.png'
+marketing_image_two: '/img/automation.png'
 marketing_btn_text: 'Inquire now'
 marketing_btn_link: '#'
 
@@ -212,7 +212,7 @@ statistics_description: 'Currently in the business world, we are witnessing a fa
 statistics_image: 'img/title-icon.png'
 
 # main big image
-statistics_start_image: 'img/stat/stat-img.png'
+statistics_start_image: 'img/services.png'
 
 # 4 section image
 statistics_item_one_image: 'img/stat/s1.png'
@@ -254,7 +254,7 @@ cta_btn_text_two: 'Signup'
 ####################################
 social_title: 'Increase Your Sales Through Online Presence'
 social_description: "Our team uses a wide range of tools to help our clients establish their online presence. Boost your sales through eCommerce and business automations. Our current packaged solutions include Online Store as a Service, SMS notifications and a Static Website."
-social_image: 'img/social-img.png'
+social_image: 'img/ecommerce.png'
 social_button_text: 'Inquire now'
 social_button_link: '#'
 
