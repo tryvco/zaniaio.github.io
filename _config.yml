@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Cost Effective and High Quality
   solutions to take your business to the next level
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "http://localhost:3000/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://www.zania.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 twitter_username    : jekyllrb
 github_username     :  zaniaio
 
@@ -493,7 +493,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "img/logo-large.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
